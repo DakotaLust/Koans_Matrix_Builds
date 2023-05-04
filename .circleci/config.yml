@@ -34,5 +34,5 @@ workflows:
           matrix:
             # Add below this line to setup matrix build
             parameters:
-              version: [12.9.1, 13.9.0, 14.18.2, 16.13.1]
+              version: ["12.9.1", "13.9.0", "14.18.2", "16.13.1"]
               platform: [macos, linux]
